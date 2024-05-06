@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: pop;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+.about_section{
+    
+    height: 700px;
+    width: 1600px;
+    background-color: rgba(14, 20, 21, 0.308);
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5%;
+    font-family: pop;
+}
+.about_img img{
+    width: 430px;
+    transform: translateY(50px);
+    border: 6px double rgb(240, 158, 25) ;
+}
+.about_details h1{
+    font-size: 58px;
+    color: #fff;
+    position: relative;
+}
+.about_details h1::after{
+    content: " ";
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background-color: #f39c12;
+    border-radius: 5px;
+    left: 0;
+    bottom: 2px;
+    font-size: 1px;
+}
+.about_details p{
+    font-size: 20px;
+    color: #fff;
+    max-width: 480px;
+    margin: 30px 0 45px 0;
+    line-height: 29px;
+
+}
+.btn3{
+    padding: 10px 25px;
+    border: 2px solid #f39c12;
+    border-radius: 5px;
+    color: #f39c12;
+    text-decoration: none;
+    margin: 30px 0;
+    transition: all .5s ease;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #f39c12;
+    color: #333;
+}
+.btn1{
+    margin-right: 15px;
+    background-color: #f39c12;
+    color: #000;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: #f39c12;
+}
+#abp{
+    color: #f39c12;
+    text-align: center;
+    margin-top: 2%;
+    background-color: rgba(14, 20, 21, 0.308);
+}
+/* about page end css */
+
+*{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   list-style: none;
+   padding: 0;
+   margin: 0; 
+}
+
+/* skill page css */
+
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --sans: 'Open Sans', sans-serif;
+  
+    --black: #111;
+    --nero: #252525;
+    --transition: all 0.4s ease;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--sans);
+}
+body{
+    color: #fff;
+    line-height: 1.5;
+    background: var(--black);
+    overflow-x: hidden;
+}
+
+
+.text{
+    font-size: 1.05rem;
+    color: #d0d0d0;
+    line-height: 1.7;
+}
+.ab{
+    text-decoration: none;
+    color: #f39c12;
+    font-size: 20px;
+    text-shadow: 3px 3px 2px rgba(92, 95, 92, 0.978);
+    
+}
